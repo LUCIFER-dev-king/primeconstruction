@@ -3,10 +3,10 @@ import checkdam1 from "../assets/checkdam/checkdam 1.jpg";
 import checkdam2 from "../assets/checkdam/checkdam 2.jpg";
 const Coursel = () => {
   return (
-    <div className='container p-5'>
+    <div className='container p-lg-5 p-md-3 p-sm-1'>
       <div
         id='carouselExampleDark'
-        className='carousel slide rounded-1 border border-2 shadow-lg ms-5 me-5 mb-5 mt-2'
+        className='carousel slide rounded-1 border border-2 shadow-lg ms-xl-5 me-xl-5 mb-xl-5 mt-xl-2'
         data-bs-ride='carousel'
       >
         <div class='carousel-indicators'>

@@ -14,7 +14,9 @@ function App() {
   return (
     <div className='App' style={{ backgroundColor: "#1B1825" }}>
       <Banner />
+      <Quote />
       <Gallery />
+      <Contact />
     </div>
   );
 }

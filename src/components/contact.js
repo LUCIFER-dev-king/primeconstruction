@@ -6,7 +6,10 @@ import { MdLocationOn, MdEmail } from "react-icons/md";
 // blue 234AE2
 const Contact = () => {
   return (
-    <div style={{ backgroundColor: "#1B1825", height: "100%", color: "#fff" }}>
+    <div
+      id='contact'
+      style={{ backgroundColor: "#1B1825", height: "100%", color: "#fff" }}
+    >
       <div className='text-center'>
         <h3>Get in touch!</h3>
       </div>
@@ -15,15 +18,20 @@ const Contact = () => {
       </p>
       <div className='container'>
         <div className='contact-links'>
-          <div className='d-flex flex-column justify-content-center align-items-center '>
+          <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon'>
             <MdLocationOn style={{ fontSize: "1.5rem", color: "#FF7433" }} />
             <p className='mt-1'>Chidambaram</p>
           </div>
-          <div className='d-flex flex-column justify-content-center align-items-center '>
+          <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon'>
             <FaPhoneAlt style={{ fontSize: "1.5rem", color: "#FF7433" }} />
-            <p className='mt-1'>81232312312</p>
+            <p href='tel:81232312312' className='mt-1'>
+              81232312312
+            </p>
           </div>
-          <div className='d-flex flex-column justify-content-center align-items-center '>
+          <div
+            href='https://www.instagram.com/Prime_construction_cdm/'
+            className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon'
+          >
             <MdEmail style={{ fontSize: "1.5rem", color: "#FF7433" }} />
             <p>test@gmail.com</p>
           </div>
@@ -31,8 +39,8 @@ const Contact = () => {
       </div>
       <div className='container p-2' style={{ fontSize: "1rem" }}>
         <div className='mx-auto rounded-2 bg-white w-75 text-black pb-2'>
-          <div className='d-flex justify-content-around py-2 px-4'>
-            <div className='d-flex flex-column w-100 p-2'>
+          <div className='d-lg-flex justify-content-around py-4 px-4 contact-form'>
+            <div className='d-md-flex flex-column w-100 p-2 contact-form'>
               <div className='mb-3'>
                 <label for='exampleFormControlInput1' className='form-label'>
                   Name
@@ -67,12 +75,12 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className='mb-3 w-100  p-2'>
+            <div className='mb-3 w-100 p-2'>
               <label for='exampleFormControlTextarea1' className='form-label'>
                 Example textarea
               </label>
               <textarea
-                className='form-control h-80'
+                className='form-control h-100'
                 id='exampleFormControlTextarea1'
                 rows='3'
               ></textarea>

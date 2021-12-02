@@ -33,13 +33,6 @@
   font-weight: 300;
 }
 
-.contact-links {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 8rem;
-  padding: 2rem;
-}
-
 .heroImage {
   background-image: url("https://images.unsplash.com/photo-1556718537-5bbbe0ca0b67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
   background-position: center;
@@ -88,10 +81,28 @@
   text-align: center;
 }
 
+.gallery-text {
+  font-size: 2rem;
+}
+
 .gallery-img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 8rem;
+  padding: 2rem;
+}
+
+.contact-link-icon:hover {
+  background-color: #fff;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {
@@ -126,6 +137,9 @@
   .banner-text-heading {
     font-size: 4rem;
   }
+  .gallery-text {
+    font-size: 1.5rem;
+  }
 }
 
 /* Landscape phones and portrait tablets */
@@ -141,6 +155,10 @@
   .service {
     display: block;
   }
+
+  .contact-links {
+    margin: 0 4rem;
+  }
 }
 
 /* Portrait phones and smaller */
@@ -154,11 +172,27 @@
     width: 60px;
     height: 60px;
   }
+  .gallery-text {
+    font-size: 1.2rem;
+  }
+
+  .contact-links {
+    display: block;
+  }
+  .contact-form {
+    display: block;
+  }
 }
 
 /* The smallest */
 @media (max-width: 330px) {
   .banner-text-heading {
     font-size: 2.5rem;
+  }
+  .gallery-text {
+    font-size: 1.2rem;
+  }
+  .contact-form {
+    display: block;
   }
 }

@@ -5,7 +5,7 @@ import img from "../assets/logo.jpg";
 import { MdMenu } from "react-icons/md";
 const Banner = () => {
   return (
-    <div className='banner p-2'>
+    <div className='p-2'>
       <nav className='navbar navbar-expand-lg navbar-dark'>
         <div className='container'>
           <a className='navbar-brand fs-4' href='#'>
@@ -48,19 +48,19 @@ const Banner = () => {
                 </a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link text-white ms-lg-5' href='#'>
+                <a class='nav-link text-white ms-lg-5' href='#quotation'>
                   <span className='banner-btn'>Quotation</span>
                 </a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link text-white ms-lg-5' href='#'>
+                <a class='nav-link text-white ms-lg-5' href='#gallery'>
                   <span className='banner-btn'>Gallery</span>
                 </a>
               </li>
             </ul>
             <div className='mt-xs-3 mt-lg-0 contact-nav-btn'>
               <a
-                href='#'
+                href='#contact'
                 className='nav-item p-2 text-decoration-none text-white contact-btn '
               >
                 Contact Us
