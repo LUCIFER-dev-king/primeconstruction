@@ -98,6 +98,10 @@
   padding: 2rem;
 }
 
+.contact-link-icon {
+  text-decoration: none;
+}
+
 .contact-link-icon:hover {
   background-color: #fff;
   border-radius: 5px;
