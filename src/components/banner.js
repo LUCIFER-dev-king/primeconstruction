@@ -1,5 +1,4 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
 import HeroSection from "./HeroSection";
 import img from "../assets/logo.jpg";
 import { MdMenu } from "react-icons/md";
@@ -8,7 +7,7 @@ const Banner = () => {
     <div className='p-2'>
       <nav className='navbar navbar-expand-lg navbar-dark'>
         <div className='container'>
-          <a className='navbar-brand fs-4' href='#'>
+          <a className='navbar-brand fs-4' href='#banner'>
             <img
               src={img}
               width='80px'
@@ -37,13 +36,13 @@ const Banner = () => {
                 <a
                   className='nav-link active text-white ms-lg-5 banner-btn'
                   aria-current='page'
-                  href='#'
+                  href='#banner'
                 >
                   <span className='banner-btn'>Home</span>
                 </a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link text-white ms-lg-5' href='#'>
+                <a class='nav-link text-white ms-lg-5' href='#banner'>
                   <span className='banner-btn'>Services</span>
                 </a>
               </li>

@@ -56,6 +56,7 @@ const Gallery = () => {
                 className='dropdown-item active rounded'
                 onClick={setGAlleryStateFunc}
                 ref={galleryConstructionView}
+                href='#gallery'
               >
                 Construction Site
               </a>
@@ -65,6 +66,7 @@ const Gallery = () => {
                 ref={galleryRenovationView}
                 className='dropdown-item rounded'
                 onClick={setGAlleryStateFunc}
+                href='#gallery'
               >
                 Renovation
               </a>

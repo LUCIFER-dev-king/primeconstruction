@@ -7,7 +7,7 @@ import { MdLocationOn } from "react-icons/md";
 const Contact = () => {
   return (
     <div
-      id='contact '
+      id='contact'
       style={{ backgroundColor: "#1B1825", height: "100%", color: "#fff" }}
       className='mt-5'
     >

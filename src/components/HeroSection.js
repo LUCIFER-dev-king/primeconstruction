@@ -1,5 +1,5 @@
 import React from "react";
-import cap from "../assets/cap.jpg";
+// import cap from "../assets/cap.jpg";
 import { FaAngleDown } from "react-icons/fa";
 
 const HeroSection = () => {
@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div>{""}</div>
       </div>
       <a
-        href='#'
+        href='#banner'
         className='nav-item p-2 text-decoration-none text-black rounded-0 mt-3'
         style={{
           backgroundColor: "#FFCE52",
