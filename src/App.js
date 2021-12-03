@@ -1,6 +1,5 @@
 import { Header } from "./components/header";
 import Quote from "./components/quote";
-import Service from "./components/serivce";
 import "./App.css";
 import Contact from "./components/contact";
 import Banner from "./components/banner";

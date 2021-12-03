@@ -1,5 +1,7 @@
 import React from "react";
-
+//https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?cs=srgb&dl=pexels-rodolfo-quir%C3%B3s-2219024.jpg&fm=jpg
+// /https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?cs=srgb&dl=pexels-anamul-rezwan-1216544.jpg&fm=jpg
+//https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?cs=srgb&dl=pexels-anamul-rezwan-1216589.jpg&fm=jpg
 const Service = () => {
   return (
     <div className='container'>
@@ -9,11 +11,7 @@ const Service = () => {
           className='card shadow'
           style={{ width: "18rem", height: "20rem" }}
         >
-          <img
-            src='https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?cs=srgb&dl=pexels-rodolfo-quir%C3%B3s-2219024.jpg&fm=jpg'
-            class='card-img-top'
-            alt='...'
-          />
+          <img src='' class='card-img-top' alt='...' />
           <div className='card-body'>
             <h5 className='card-title'>lorem</h5>
             <p className='card-text'>
@@ -23,11 +21,7 @@ const Service = () => {
           </div>
         </div>
         <div className='card' style={{ width: "18rem", height: "20rem" }}>
-          <img
-            src='https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?cs=srgb&dl=pexels-anamul-rezwan-1216589.jpg&fm=jpg'
-            class='card-img-top'
-            alt='...'
-          />
+          <img src='' class='card-img-top' alt='...' />
           <div className='card-body'>
             <h5 className='card-title'>lorem</h5>
             <p className='card-text'>
@@ -37,11 +31,7 @@ const Service = () => {
           </div>
         </div>
         <div className='card' style={{ width: "18rem", height: "20rem" }}>
-          <img
-            src='https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?cs=srgb&dl=pexels-anamul-rezwan-1216544.jpg&fm=jpg'
-            class='card-img-top'
-            alt='...'
-          />
+          <img src='' class='card-img-top' alt='...' />
           <div className='card-body'>
             <h5 className='card-title'>lorem</h5>
             <p className='card-text'>

@@ -41,7 +41,7 @@ const Service1 = () => {
             </h5>
 
             <a
-              href='#'
+              href='#gallery'
               className='p-2 text-decoration-none text-black rounded-0 mt-3 ms-5 btn-quote'
               style={{
                 backgroundColor: "#FFF",
