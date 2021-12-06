@@ -13,11 +13,11 @@ const Service1 = () => {
                 style={{ fontSize: "4rem", color: "#FFCE52" }}
               >
                 01{" "}
-                <span style={{ fontSize: "2rem", color: "#fff" }}>
+                <span className='gallery-text' style={{ color: "#fff" }}>
                   Interior Design
                 </span>
               </div>
-              <div>
+              <div className='d-none d-md-block'>
                 <FaAngleUp
                   style={{
                     transform: "rotate(45deg)",
@@ -28,25 +28,25 @@ const Service1 = () => {
                 />
               </div>
             </div>
-            <h4 className='ms-md-5 mt-md-5 lh-4'>
+            <h5 className='ms-md-5 mt-md-5 lh-4 text-light'>
               OUTFIT IS AN ALL IN ONE RENOATION PRODUCT THAT LET'S YOU BILD WITH
               CONFIDENCE.
-            </h4>
+            </h5>
 
-            <h5 className='mt-md-3 ms-md-5 lh-md-5'>
+            <p className='mt-md-3 ms-md-5 lh-lg text-light'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint
               minus assumenda, omnis facere sit dolorum autem placeat animi
               recusandae! Perferendis quis iure mollitia eum, rerum fugit
               deserunt blanditiis nisi?
-            </h5>
+            </p>
 
             <a
               href='#gallery'
-              className='p-2 text-decoration-none text-black rounded-0 mt-3 ms-5 btn-quote'
+              className='p-2 text-decoration-none text-black rounded-0 mt-3 ms-md-5 me-auto btn-quote'
               style={{
                 backgroundColor: "#FFF",
                 display: "inline-block",
-                width: "18%",
+                fontSize: "1rem",
               }}
             >
               Our Projects
