@@ -5,7 +5,7 @@ import img2 from "../assets/renovate1/2.jpg";
 
 const Compare = () => {
   return (
-    <div className='container p-md-5 '>
+    <div className='container p-md-5 mt-3 mt-md-0'>
       <div
         id='carouselExampleDark'
         className='carousel slide rounded-1 border border-2 shadow-lg ms-md-5 me-md-5 mb-md-5 mt-md-2'

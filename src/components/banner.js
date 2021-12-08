@@ -4,7 +4,7 @@ import img from "../assets/logo.jpg";
 import { MdMenu } from "react-icons/md";
 const Banner = () => {
   return (
-    <div className='p-2'>
+    <div className='banner p-2'>
       <nav className='navbar navbar-expand-lg navbar-dark'>
         <div className='container'>
           <a className='navbar-brand fs-4' href='#banner'>

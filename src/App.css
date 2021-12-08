@@ -110,6 +110,9 @@
 }
 
 @media (min-width: 1200px) {
+  .banner {
+    height: 100vh;
+  }
 }
 
 /* Landscape tablets and medium desktops */
@@ -187,6 +190,7 @@
 
   .contact-links {
     display: block;
+    padding: 0;
   }
   .contact-form {
     display: block;

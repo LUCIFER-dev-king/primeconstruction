@@ -7,7 +7,7 @@ const Quote = () => {
     );
 
     return (
-      <Card className='mt-2 px-2 py-3' onClick={decoratedOnClick}>
+      <Card className='mt-2 px-2 py-2 py-md-3' onClick={decoratedOnClick}>
         {children}
       </Card>
     );
