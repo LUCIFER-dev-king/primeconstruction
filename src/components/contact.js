@@ -7,7 +7,7 @@ import { useForm, ValidationError } from "@formspree/react";
 // #1B2259
 // blue 234AE2
 const Contact = () => {
-  const [state, handleSubmit] = useForm("mnqwqqlv");
+  const [state, handleSubmit] = useForm("xzbobzgj");
   if (state.succeeded) {
     console.log("Thanks for joining!");
   }
@@ -62,7 +62,7 @@ const Contact = () => {
       <div className='container p-1' style={{ fontSize: "1rem" }}>
         <form onSubmit={handleSubmit}>
           <div className='mx-auto rounded-2 bg-white w-100 w-md-75 text-black pb-2'>
-            <div className='d-lg-flex justify-content-around py-4 px-md-4 contact-form'>
+            <div className='d-lg-flex justify-content-around pt-4 pb-2 pb-lg-4 px-md-4 contact-form'>
               <div className='d-md-flex flex-column w-100 p-2 contact-form'>
                 <div className='mb-3'>
                   <label htmlFor='name' className='form-label'>
@@ -113,7 +113,7 @@ const Contact = () => {
                 <textarea
                   className='form-control h-100 text-muted'
                   id='message'
-                  rows='3'
+                  rows='6'
                   name='message'
                   placeholder='Hi there!'
                 ></textarea>
