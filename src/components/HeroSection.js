@@ -32,7 +32,7 @@ const HeroSection = () => {
       </a>
 
       <div className='d-none d-lg-block heroImage'></div>
-      <div className='d-none d-lg-block heroImage2'>Imge</div>
+      <div className='d-none d-lg-block heroImage2'></div>
     </div>
   );
 };
