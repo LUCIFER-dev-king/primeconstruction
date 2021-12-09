@@ -1,11 +1,21 @@
 import React from "react";
 import { FaAngleUp, FaArrowRight } from "react-icons/fa";
+import service1 from "../assets/service/service1.jpg";
+import service2 from "../assets/service/service2.jpg";
+import service3 from "../assets/service/service3.jpg";
+import service4 from "../assets/service/service4.jpg";
+// import service5 from "../assets/service/service5.jpg";
 const Service1 = () => {
   return (
     <div>
       <div className='container'>
         <div className='d-md-flex mt-5 py-3 justify-content-start'>
-          <div className='service-img'> </div>
+          <div
+            className='service-img'
+            style={{ backgroundImage: `url(${service1})` }}
+          >
+            {" "}
+          </div>
           <div className='d-flex flex-column pe-md-5'>
             <div className='d-flex justify-content-between'>
               <div
@@ -99,10 +109,20 @@ const Service1 = () => {
               <FaArrowRight className='ms-1' />
             </a>
           </div>
-          <div className='service-img pe-md-5'> </div>
+          <div
+            className='service-img pe-md-5'
+            style={{ backgroundImage: `url(${service2})` }}
+          >
+            {" "}
+          </div>
         </div>
         <div className='d-md-flex mt-5 py-3 justify-content-start'>
-          <div className='service-img'> </div>
+          <div
+            className='service-img'
+            style={{ backgroundImage: `url(${service3})` }}
+          >
+            {" "}
+          </div>
           <div className='d-flex flex-column pe-md-5'>
             <div className='d-flex justify-content-between'>
               <div
@@ -196,7 +216,12 @@ const Service1 = () => {
               <FaArrowRight className='ms-1' />
             </a>
           </div>
-          <div className='service-img pe-md-5'> </div>
+          <div
+            className='service-img pe-md-5'
+            style={{ backgroundImage: `url(${service4})` }}
+          >
+            {" "}
+          </div>
         </div>
       </div>
     </div>
