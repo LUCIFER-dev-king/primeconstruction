@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
-import hero1 from "../assets/HeroSection/hero1.jpg";
-import hero2 from "../assets/HeroSection/hero2.jpg";
+// import hero1 from "../assets/HeroSection/hero1.jpg";
+// import hero2 from "../assets/HeroSection/hero2.jpg";
 
 const HeroSection = () => {
   return (
@@ -32,14 +32,8 @@ const HeroSection = () => {
         <FaAngleDown className='ms-1' />
       </a>
 
-      <div
-        className='d-none d-lg-block heroImage'
-        style={{ backgroundImage: `url(${hero1})` }}
-      ></div>
-      <div
-        className='d-none d-lg-block heroImage2'
-        style={{ backgroundImage: `url(${hero2})` }}
-      ></div>
+      <div className='d-none d-lg-block heroImage'></div>
+      <div className='d-none d-lg-block heroImage2'></div>
     </div>
   );
 };
