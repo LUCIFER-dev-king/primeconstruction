@@ -12,14 +12,14 @@
   cursor: pointer;
   background-color: #bd4f20;
 }
-
+/* 
 .banner-img {
   background-image: url("./assets/cap.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-}
+} */
 
 .bg-change {
   background-color: rgba(0, 0, 0, 0.1);
@@ -96,8 +96,7 @@
 .contact-links {
   display: flex;
   justify-content: space-around;
-  margin: 0 8rem;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .contact-link-icon {

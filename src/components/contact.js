@@ -54,7 +54,7 @@ const Contact = () => {
           >
             <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon'>
               <FaInstagram style={{ fontSize: "1.5rem", color: "#FF7433" }} />
-              <p className='mt-1'>Prime_construction_cdm</p>
+              <p className='mt-1'>Prime Construction</p>
             </div>
           </a>
         </div>

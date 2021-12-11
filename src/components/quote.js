@@ -23,13 +23,13 @@ const Quote = () => {
             <CustomToggle eventKey='0'>Basement</CustomToggle>
           </div>
           <Accordion.Collapse eventKey='0' className='text-light'>
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>About Basement</Card.Body>
           </Accordion.Collapse>
           <div>
             <CustomToggle eventKey='1'>Plumbing</CustomToggle>
           </div>
           <Accordion.Collapse eventKey='1' className='text-light'>
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body>About plumbing</Card.Body>
           </Accordion.Collapse>
         </Accordion>
       </div>
