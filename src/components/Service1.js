@@ -68,6 +68,14 @@ const Service1 = () => {
         </div>
         <div className='d-md-flex mt-5 py-3 justify-content-between'>
           <div className='d-flex flex-column pe-lg-5'>
+            <div
+              className='d-md-none service-img pe-md-5'
+              style={{
+                backgroundImage: `url("https://primeconstruction.s3.ap-south-1.amazonaws.com/service/service1.jpg")`,
+              }}
+            >
+              {" "}
+            </div>
             <div className='d-flex justify-content-between pe-lg-5'>
               <div style={{ fontSize: "4rem", color: "#FFCE52" }}>
                 02{" "}
@@ -112,7 +120,7 @@ const Service1 = () => {
             </a>
           </div>
           <div
-            className='service-img pe-md-5'
+            className='d-none d-md-block service-img pe-md-5'
             style={{
               backgroundImage: `url("https://primeconstruction.s3.ap-south-1.amazonaws.com/service/service1.jpg")`,
             }}
@@ -179,6 +187,14 @@ const Service1 = () => {
         </div>
         <div className='d-md-flex mt-5 py-3 justify-content-between'>
           <div className='d-flex flex-column pe-lg-5'>
+            <div
+              className='d-md-none service-img pe-md-5'
+              style={{
+                backgroundImage: `url("https://primeconstruction.s3.ap-south-1.amazonaws.com/service/service4.jpg")`,
+              }}
+            >
+              {" "}
+            </div>
             <div className='d-flex justify-content-between pe-lg-5'>
               <div style={{ fontSize: "4rem", color: "#FFCE52" }}>
                 04{" "}
@@ -223,7 +239,7 @@ const Service1 = () => {
             </a>
           </div>
           <div
-            className='service-img pe-md-5'
+            className='d-none d-md-block service-img pe-md-5'
             style={{
               backgroundImage: `url("https://primeconstruction.s3.ap-south-1.amazonaws.com/service/service4.jpg")`,
             }}
