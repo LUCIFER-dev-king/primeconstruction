@@ -11,8 +11,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const Service1 = () => {
   gsap.registerPlugin(ScrollTrigger);
   const serviceRef = useRef();
-  const tl = useRef();
-  const q = gsap.utils.selector(serviceRef);
+  // const tl = useRef();
+  // const q = gsap.utils.selector(serviceRef);
   const maskAnimate = useRef();
   const imageAnimate = useRef();
 

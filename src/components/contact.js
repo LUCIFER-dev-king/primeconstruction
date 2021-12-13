@@ -17,8 +17,8 @@ const Contact = () => {
 
   const el = useRef();
   const q = gsap.utils.selector(el);
-  const bannerTextAnimate = useRef();
-  const tl = useRef();
+  // const bannerTextAnimate = useRef();
+  // const tl = useRef();
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     let tl = gsap.timeline({

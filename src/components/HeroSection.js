@@ -12,32 +12,31 @@ const HeroSection = () => {
   const bannerTextAnimate = useRef();
   const tl = useRef();
   useEffect(() => {
-    tl.current = gsap.timeline().staggerFrom(
-      q(".banner-text-heading-animate"),
-      1.5,
-      {
-        opacity: 0,
-      },
-      { opacity: 1, y: "100%", ease: Power4.easeOut },
-      0.15
-    );
+    tl.current = gsap
+      .timeline()
+      .staggerFrom(
+        q(".banner-text-heading-animate"),
+        1.5,
+        {
+          opacity: 0,
+        },
+        { opacity: 1, y: "100%", ease: Power4.easeOut },
+        0.15
+      )
+      .staggerFrom(
+        q(".hero-image-animate"),
+        1.5,
+        {
+          opacity: 0,
+        },
+        {
+          opacity: 1,
+          y: "10%",
+          ease: Power2.out,
+        },
+        0.15
+      );
   });
-
-  useEffect(() => {
-    tl.current = gsap.timeline().staggerFrom(
-      q(".hero-image-animate"),
-      1.5,
-      {
-        opacity: 0,
-      },
-      {
-        opacity: 1,
-        y: "10%",
-        ease: Power2.out,
-      },
-      0.15
-    );
-  }, []);
 
   return (
     <div className='container' ref={el}>
