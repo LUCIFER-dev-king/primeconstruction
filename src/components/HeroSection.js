@@ -77,8 +77,9 @@ const HeroSection = () => {
             className='mt-3 banner-text-animate banner-text-heading-animate'
             style={{ color: "#B9BAC1" }}
           >
-            Understanding the person or people living in <br /> a home is a
-            greater need in design.
+            Understanding the person or people living in{" "}
+            <br className='d-none d-md-block' />a home is a greater need in
+            design.
           </p>
           <a
             href='#banner'
