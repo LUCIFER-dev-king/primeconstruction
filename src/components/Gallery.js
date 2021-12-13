@@ -56,9 +56,12 @@ const Gallery = () => {
 
   return (
     <div id='gallery' className='container' ref={el}>
-      <div className='d-flex justify-content-between pt-5 gallery-animate'>
+      <div
+        className='d-flex justify-content-between pt-5 '
+        style={{ zIndex: "10" }}
+      >
         <div
-          className='gallery-text'
+          className='gallery-text gallery-animate'
           style={{ color: "#FFCE52", textAlign: "center" }}
         >
           GALLERY
@@ -75,7 +78,7 @@ const Gallery = () => {
           <ul
             class='dropdown-menu dropdown-menu-dark shadow-lg rounded'
             aria-labelledby='dropdownMenuButton2'
-            style={{ backgroundColor: "#1B1825", zIndex: "10" }}
+            style={{ backgroundColor: "#1B1825" }}
           >
             <li>
               <a
@@ -83,6 +86,7 @@ const Gallery = () => {
                 onClick={setGAlleryStateFunc}
                 ref={galleryConstructionView}
                 href='#gallery'
+                style={{ zIndex: "10" }}
               >
                 Construction Site
               </a>
@@ -93,6 +97,7 @@ const Gallery = () => {
                 className='dropdown-item rounded'
                 onClick={setGAlleryStateFunc}
                 href='#gallery'
+                style={{ zIndex: "10" }}
               >
                 Renovation
               </a>
@@ -100,7 +105,7 @@ const Gallery = () => {
           </ul>
         </div>
       </div>
-      {galleryState ? <Coursel></Coursel> : <Compare></Compare>}
+      <div>{galleryState ? <Coursel></Coursel> : <Compare></Compare>}</div>
     </div>
   );
 };

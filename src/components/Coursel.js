@@ -6,10 +6,7 @@ import bath2 from "../assets/bathing ghat/2.jpg";
 import bath3 from "../assets/bathing ghat/3.jpg";
 const Coursel = () => {
   return (
-    <div
-      className='container p-lg-5 p-md-3 p-sm-1 mt-3 mt-md-0 gallery-animate'
-      style={{ zIndex: "-5" }}
-    >
+    <div className='container p-lg-5 p-md-3 p-sm-1 mt-3 mt-md-0 gallery-animate'>
       <div
         id='carouselExampleDark'
         className='carousel slide rounded-1 border border-2 shadow-lg ms-xl-5 me-xl-5 mb-xl-5 mt-xl-2'

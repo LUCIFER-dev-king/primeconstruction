@@ -14,6 +14,7 @@ function App() {
       <Quote />
       <Gallery />
       <Contact />
+      <div className='vh-100'></div>
     </div>
   );
 }
