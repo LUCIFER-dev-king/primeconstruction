@@ -5,6 +5,7 @@ import Banner from "./components/banner";
 
 import Gallery from "./components/Gallery";
 import Service1 from "./components/Service1";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Quote />
       <Gallery />
       <Contact />
-      <div className='vh-100'></div>
+      <Footer />
     </div>
   );
 }

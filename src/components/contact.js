@@ -33,7 +33,7 @@ const Contact = () => {
       {
         opacity: 0,
       },
-      { opacity: 1, y: "40%", ease: Power4.easeOut },
+      { opacity: 1, y: "10%", ease: Power4.easeOut },
       0.15
     );
   });
@@ -42,10 +42,10 @@ const Contact = () => {
     <div
       id='contact'
       style={{ backgroundColor: "#1B1825", height: "100%", color: "#fff" }}
-      className='mt-5'
+      className='mt-5 mb-5'
       ref={el}
     >
-      <div className='text-center contact-animate'>
+      <div className='text-center contact-animate  '>
         <h3 className='gallery-text'>
           GET IN<span style={{ color: "#FFCE52" }}> TOUCH!</span>
         </h3>

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { gsap } from "gsap";
-import { Power4 } from "gsap/all";
+import { Power4, Power2 } from "gsap/all";
 
 // import hero1 from "../assets/HeroSection/hero1.jpg";
 // import hero2 from "../assets/HeroSection/hero2.jpg";
@@ -23,9 +23,25 @@ const HeroSection = () => {
     );
   });
 
+  useEffect(() => {
+    tl.current = gsap.timeline().staggerFrom(
+      q(".hero-image-animate"),
+      1.5,
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        y: "10%",
+        ease: Power2.out,
+      },
+      0.15
+    );
+  }, []);
+
   return (
-    <div className='container'>
-      <div className='d-flex pt-md-5 justify-content-between' ref={el}>
+    <div className='container' ref={el}>
+      <div className='d-flex pt-md-5 justify-content-between'>
         <div className='d-flex pt-5 flex-column'>
           <h4
             className='banner-text-heading banner-text-heading-animate'
@@ -82,8 +98,8 @@ const HeroSection = () => {
         <div>{""}</div>
       </div>
 
-      <div className='d-none d-lg-block heroImage'></div>
-      <div className='d-none d-lg-block heroImage2'></div>
+      <div className='d-none d-lg-block heroImage hero-image-animate'></div>
+      <div className='d-none d-lg-block heroImage2 hero-image-animate'></div>
     </div>
   );
 };

@@ -60,14 +60,14 @@ const Service1 = () => {
           </div>
           <div className='d-flex flex-column pe-lg-5'>
             <div className='d-flex justify-content-between'>
-              <div
-                className='ms-md-4 ms-lg-5'
-                style={{ fontSize: "4rem", color: "#FFCE52" }}
-              >
-                01{" "}
-                <span className='gallery-text' style={{ color: "#fff" }}>
-                  Building Erection
+              <div className='gallery-text' style={{ color: "#fff" }}>
+                <span
+                  className='ms-md-4 ms-lg-5'
+                  style={{ fontSize: "4rem", color: "#FFCE52" }}
+                >
+                  01{" "}
                 </span>
+                Building Erection
               </div>
               <div className='d-none d-lg-block'>
                 <FaAngleUp
@@ -120,11 +120,9 @@ const Service1 = () => {
               </div>
             </div>
             <div className='d-flex justify-content-between pe-lg-5'>
-              <div style={{ fontSize: "4rem", color: "#FFCE52" }}>
-                02{" "}
-                <span className='gallery-text' style={{ color: "#fff" }}>
-                  Building Repair
-                </span>
+              <div className='gallery-text' style={{ color: "#fff" }}>
+                <span style={{ fontSize: "4rem", color: "#FFCE52" }}>02 </span>
+                Building Repair
               </div>
               <div className='d-none d-lg-block'>
                 <FaAngleUp
@@ -189,14 +187,14 @@ const Service1 = () => {
           </div>
           <div className='d-flex flex-column pe-lg-5'>
             <div className='d-flex justify-content-between'>
-              <div
-                className='ms-md-5 ms-lg-5'
-                style={{ fontSize: "4rem", color: "#FFCE52" }}
-              >
-                03{" "}
-                <span className='gallery-text' style={{ color: "#fff" }}>
-                  Renovation
+              <div className='gallery-text' style={{ color: "#fff" }}>
+                <span
+                  className='ms-md-5 ms-lg-5'
+                  style={{ fontSize: "4rem", color: "#FFCE52" }}
+                >
+                  03{" "}
                 </span>
+                Building Renovation
               </div>
               <div className='d-none d-lg-block'>
                 <FaAngleUp
@@ -249,11 +247,9 @@ const Service1 = () => {
               </div>
             </div>
             <div className='d-flex justify-content-between pe-lg-5'>
-              <div style={{ fontSize: "4rem", color: "#FFCE52" }}>
-                04{" "}
-                <span className='gallery-text' style={{ color: "#fff" }}>
-                  Interior & Exterior
-                </span>
+              <div className='gallery-text' style={{ color: "#fff" }}>
+                <span style={{ fontSize: "4rem", color: "#FFCE52" }}>04 </span>
+                Interior & Exterior Design
               </div>
               <div className='d-none d-lg-block'>
                 <FaAngleUp
