@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { FaPhoneAlt, FaInstagram } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { useForm, ValidationError } from "@formspree/react";
+import { gsap } from "gsap";
+import { Power4 } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // #1B1825
 // #1B2259
@@ -11,21 +14,46 @@ const Contact = () => {
   if (state.succeeded) {
     console.log("Thanks for joining!");
   }
+
+  const el = useRef();
+  const q = gsap.utils.selector(el);
+  const bannerTextAnimate = useRef();
+  const tl = useRef();
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#contact",
+        toggleActions: "restart none none reset",
+      },
+    });
+    tl.staggerFrom(
+      q(".contact-animate"),
+      1.5,
+      {
+        opacity: 0,
+      },
+      { opacity: 1, y: "40%", ease: Power4.easeOut },
+      0.15
+    );
+  });
+
   return (
     <div
       id='contact'
       style={{ backgroundColor: "#1B1825", height: "100%", color: "#fff" }}
       className='mt-5'
+      ref={el}
     >
-      <div className='text-center'>
+      <div className='text-center contact-animate'>
         <h3 className='gallery-text'>
           GET IN<span style={{ color: "#FFCE52" }}> TOUCH!</span>
         </h3>
       </div>
-      <p className='text-center'>
+      <p className='text-center contact-animate'>
         Fill up the form and our Team will get back to you within 24 hours
       </p>
-      <div className='container'>
+      <div className='container contact-animate'>
         <div className='contact-links'>
           <a
             href='https://goo.gl/maps/2TMXXomoJDbCiUPf6'
@@ -59,7 +87,10 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className='container p-1' style={{ fontSize: "1rem" }}>
+      <div
+        className='container p-1 contact-animate'
+        style={{ fontSize: "1rem" }}
+      >
         <form onSubmit={handleSubmit}>
           <div className='mx-auto rounded-2 bg-white w-100 w-md-75 text-black pb-2'>
             <div className='d-lg-flex justify-content-around pt-4 pb-2 pb-lg-4 px-md-4 contact-form'>

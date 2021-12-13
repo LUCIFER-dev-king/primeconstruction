@@ -1,8 +1,33 @@
 import React, { useState, useEffect, useRef } from "react";
 import Compare from "./Compare";
 import Coursel from "./Coursel";
+import { gsap } from "gsap";
+import { Power4 } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Gallery = () => {
+  gsap.registerPlugin(ScrollTrigger);
+  const el = useRef();
+  const q = gsap.utils.selector(el);
+
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#gallery",
+        toggleActions: "restart none none reset",
+      },
+    });
+    tl.staggerFrom(
+      q(".gallery-animate"),
+      1.5,
+      {
+        opacity: 0,
+      },
+      { opacity: 1, y: "40%", ease: Power4.easeOut },
+      0.15
+    );
+  });
   const [galleryState, setGalleryState] = useState(true);
   const [galleryAtConstruction, setGalleryAtConstruction] = useState(true);
   const galleryRenovationView = useRef(null);
@@ -28,9 +53,10 @@ const Gallery = () => {
       setGalleryAtConstruction(true);
     }
   };
+
   return (
-    <div id='gallery' className='container'>
-      <div className='d-flex justify-content-between pt-5'>
+    <div id='gallery' className='container' ref={el}>
+      <div className='d-flex justify-content-between pt-5 gallery-animate'>
         <div
           className='gallery-text'
           style={{ color: "#FFCE52", textAlign: "center" }}
@@ -49,7 +75,7 @@ const Gallery = () => {
           <ul
             class='dropdown-menu dropdown-menu-dark shadow-lg rounded'
             aria-labelledby='dropdownMenuButton2'
-            style={{ backgroundColor: "#1B1825" }}
+            style={{ backgroundColor: "#1B1825", zIndex: "10" }}
           >
             <li>
               <a

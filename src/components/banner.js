@@ -2,12 +2,26 @@ import React from "react";
 import HeroSection from "./HeroSection";
 import img from "../assets/logo.jpg";
 import { MdMenu } from "react-icons/md";
+import { gsap } from "gsap";
+
 const Banner = () => {
+  const onEnter = ({ currentTarget }) => {
+    gsap.to(currentTarget, { scale: "1.2" });
+  };
+
+  const onLeave = ({ currentTarget }) => {
+    gsap.to(currentTarget, { scale: "1" });
+  };
   return (
     <div className='banner p-2'>
       <nav className='navbar navbar-expand-lg navbar-dark'>
         <div className='container'>
-          <a className='navbar-brand fs-4' href='#banner'>
+          <a
+            className='navbar-brand fs-4'
+            href='#banner'
+            onMouseEnter={onEnter}
+            onMouseLeave={onLeave}
+          >
             <img
               src={img}
               width='80px'
