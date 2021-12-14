@@ -81,16 +81,17 @@ const Service1 = () => {
                 />
               </div>
             </div>
-            <p className='ms-md-5 mt-md-5 lh-4 text-muted'>
-              OUTFIT IS AN ALL IN ONE RENOATION PRODUCT THAT LET'S YOU BUILD
-              WITH CONFIDENCE.
+            <p className='ms-md-5 mt-md-5 lh-4 text-muted text-uppercase service-text-1'>
+              Building is about getting around the obstacles that are presented
+              to you.
             </p>
 
-            <p className='mt-md-3 ms-md-5 text-light'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint
-              minus assumenda, omnis facere sit dolorum autem placeat animi
-              recusandae! Perferendis quis iure mollitia eum, rerum fugit
-              deserunt blanditiis nisi?
+            <p className='mt-md-3 ms-md-5 text-light service-text-2'>
+              Our integrated approach to building projects means we have
+              developed close working relationships with architects, engineers
+              and surveyors. These relationships allow Prime Construction to
+              fulfil projects that span design, project management and building
+              works.
             </p>
 
             <a
@@ -121,7 +122,7 @@ const Service1 = () => {
               </div>
             </div>
             <div className='d-flex justify-content-between pe-lg-5'>
-              <div className='gallery-text' style={{ color: "#fff" }}>
+              <div className='gallery-text ' style={{ color: "#fff" }}>
                 <span style={{ fontSize: "4rem", color: "#FFCE52" }}>02 </span>
                 Building Repair
               </div>
@@ -136,16 +137,16 @@ const Service1 = () => {
                 />
               </div>
             </div>
-            <p className='pe-md-5 mt-md-5 lh-4 text-muted'>
-              OUTFIT IS AN ALL IN ONE RENOATION PRODUCT THAT LET'S YOU BUILD
-              WITH CONFIDENCE.
+            <p className='pe-md-5 mt-md-5 lh-4 text-muted text-uppercase service-text-1'>
+              There is nothing more poetic and terrible than the skyscrapers’
+              battle with the heavens that cover them.
             </p>
 
-            <p className='pe-md-5 text-light'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint
-              minus assumenda, omnis facere sit dolorum autem placeat animi
-              recusandae! Perferendis quis iure mollitia eum, rerum fugit
-              deserunt blanditiis nisi?
+            <p className='pe-md-5 text-light service-text-2'>
+              When you desire an extraordinary building experience based on open
+              communication and genuine trust, Desert Star Construction is your
+              committed and loyal steward in the creation of your new or
+              remodeled home.
             </p>
 
             <a
@@ -208,16 +209,17 @@ const Service1 = () => {
                 />
               </div>
             </div>
-            <p className='ms-md-5 mt-md-5 lh-4 text-muted'>
+            <p className='ms-md-5 mt-md-5 lh-4 text-muted service-text-1'>
               OUTFIT IS AN ALL IN ONE RENOATION PRODUCT THAT LET'S YOU BUILD
               WITH CONFIDENCE.
             </p>
 
-            <p className='mt-md-3 ms-md-5 text-light'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint
-              minus assumenda, omnis facere sit dolorum autem placeat animi
-              recusandae! Perferendis quis iure mollitia eum, rerum fugit
-              deserunt blanditiis nisi?
+            <p className='mt-md-3 ms-md-5 text-light service-text-2'>
+              When you desire an extraordinary building experience based on open
+              communication and genuine trust, Prime Construction is your
+              committed and loyal steward in the creation of your renovated
+              home. Our job remains the same – to be dedicated stewards through
+              the exciting process of making your dream home come to life
             </p>
 
             <a
@@ -263,16 +265,17 @@ const Service1 = () => {
                 />
               </div>
             </div>
-            <p className='pe-md-5 mt-md-5 lh-4 text-muted'>
-              OUTFIT IS AN ALL IN ONE RENOATION PRODUCT THAT LET'S YOU BUILD
-              WITH CONFIDENCE.
+            <p className='pe-md-5 mt-md-5 lh-4 text-muted text-uppercase service-text-1'>
+              Be faithful to your own taste, because nothing you really like is
+              ever out of style.
             </p>
 
-            <p className='pe-md-5 text-light'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint
-              minus assumenda, omnis facere sit dolorum autem placeat animi
-              recusandae! Perferendis quis iure mollitia eum, rerum fugit
-              deserunt blanditiis nisi?
+            <p className='pe-md-5 text-light service-text-2'>
+              Our greatest priority is to clearly understand what you wish to
+              create with your custom project design. We do this by asking
+              focused questions and listening carefully to your responses. We
+              design your custom home with the highest standard of integrity and
+              excellence.
             </p>
 
             <a

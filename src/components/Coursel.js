@@ -50,46 +50,31 @@ const Coursel = () => {
           <div class='carousel-item active' data-bs-interval='10000'>
             <img src={checkdam1} class='d-block w-100' alt='...' />
             <div class='carousel-caption d-none d-md-block'>
-              <h5>Construction 1</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <h5>Check Dam Construction</h5>
             </div>
           </div>
           <div class='carousel-item' data-bs-interval='2000'>
             <img src={checkdam2} class='d-block w-100' alt='...' />
             <div class='carousel-caption d-none d-md-block'>
-              <h5>Construction 2</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+              <h5>Check Dam Construction</h5>
             </div>
           </div>
           <div class='carousel-item' data-bs-interval='2000'>
             <img src={bath1} class='d-block w-100' alt='...' />
             <div class='carousel-caption d-none d-md-block'>
-              <h5>Construction 3</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+              <h5>Bathing Ghat Construction</h5>
             </div>
           </div>
           <div class='carousel-item' data-bs-interval='2000'>
             <img src={bath2} class='d-block w-100' alt='...' />
             <div class='carousel-caption d-none d-md-block'>
-              <h5>Construction 4</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+              <h5>Bathing Ghat Construction</h5>
             </div>
           </div>
           <div class='carousel-item'>
             <img src={bath3} class='d-block w-100' alt='...' />
             <div class='carousel-caption d-none d-md-block'>
-              <h5>Construction 5</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+              <h5>Bathing Ghat Construction</h5>
             </div>
           </div>
         </div>

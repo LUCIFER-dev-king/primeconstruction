@@ -22,7 +22,7 @@ const BackToTop = () => {
 
   window.addEventListener("scroll", toggleVisible);
   return (
-    <div className='back-to-top'>
+    <div className='back-to-top d-none d-lg-block'>
       <IoIosArrowUp
         onClick={scrollToTop}
         style={{
