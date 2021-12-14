@@ -19,13 +19,13 @@ const Quote = () => {
       </div>
       <div className='shadow-lg'>
         <Accordion defaultActiveKey='0'>
-          <div>
+          <div style={{ cursor: "pointer" }}>
             <CustomToggle eventKey='0'>Basement</CustomToggle>
           </div>
           <Accordion.Collapse eventKey='0' className='text-light'>
             <Card.Body>About Basement</Card.Body>
           </Accordion.Collapse>
-          <div>
+          <div style={{ cursor: "pointer" }}>
             <CustomToggle eventKey='1'>Plumbing</CustomToggle>
           </div>
           <Accordion.Collapse eventKey='1' className='text-light'>

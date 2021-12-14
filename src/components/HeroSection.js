@@ -82,7 +82,7 @@ const HeroSection = () => {
             design.
           </p>
           <a
-            href='#banner'
+            href='#gallery'
             className='nav-item p-2 text-decoration-none text-black rounded-0 mt-3 me-auto banner-text-heading-animate'
             style={{
               backgroundColor: "#FFCE52",

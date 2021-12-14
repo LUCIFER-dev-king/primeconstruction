@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { FaAngleUp, FaArrowRight } from "react-icons/fa";
+// /FaStarOfLife
 // import service1 from "../assets/service/service1.jpg";
 // import service2 from "../assets/service/service2.jpg";
 // import service3 from "../assets/service/service3.jpg";

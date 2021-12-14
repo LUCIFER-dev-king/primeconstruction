@@ -59,19 +59,19 @@ const Contact = () => {
             href='https://goo.gl/maps/2TMXXomoJDbCiUPf6'
             style={{ textDecoration: "none", color: "#fff" }}
           >
-            <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon'>
-              <MdLocationOn style={{ fontSize: "1.5rem", color: "#FF7433" }} />
+            <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon pt-3'>
+              <MdLocationOn style={{ fontSize: "1.7rem", color: "#FF7433" }} />
               <p className='mt-1'>Chidambaram</p>
             </div>
           </a>
           <a
-            href='tel:81232312312'
+            href='tel:8778671631'
             style={{ textDecoration: "none", color: "#fff" }}
           >
-            <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon'>
-              <FaPhoneAlt style={{ fontSize: "1.5rem", color: "#FF7433" }} />
-              <p href='tel:81232312312' className='mt-1'>
-                81232312312
+            <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon pt-3'>
+              <FaPhoneAlt style={{ fontSize: "1.7rem", color: "#FF7433" }} />
+              <p href='tel:8778671631' className='mt-1'>
+                8778671631
               </p>
             </div>
           </a>
@@ -80,9 +80,9 @@ const Contact = () => {
             href='https://www.instagram.com/Prime_construction_cdm/'
             style={{ textDecoration: "none", color: "#fff" }}
           >
-            <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon'>
-              <FaInstagram style={{ fontSize: "1.5rem", color: "#FF7433" }} />
-              <p className='mt-1'>Prime Construction</p>
+            <div className='d-flex p-1 flex-column justify-content-center align-items-center contact-link-icon pt-3'>
+              <FaInstagram style={{ fontSize: "1.7rem", color: "#FF7433" }} />
+              <p className='mt-1 text-center'>Prime Construction</p>
             </div>
           </a>
         </div>
@@ -133,7 +133,7 @@ const Contact = () => {
                     className='form-control text-muted'
                     id='phone'
                     name='phone'
-                    placeholder='9999999999'
+                    placeholder='8778671631'
                   />
                 </div>
               </div>
